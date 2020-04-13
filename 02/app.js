@@ -1,125 +1,49 @@
 console.log('app.js');
 
-
-
-//create
-var todos =  ['운동'];
-var todo = '게임';
-
-
-todos.push(todo);
-console.log(todos);
-
-
-// console.log(todos.unshift(todo));
-// console.log(todos);
-
-//read
-
-todos.forEach(function(todo){
-
-    console.log(todo);
-})
-
-
-//Update
-
-
-var todos = ['운동', '게임'];
-var updateTodo = '게임';
-// var updateIndex = todos.findIndex(function(todo) {
-//   return todo === updateTodo;
-// });
-
-// console.log(updateIndex);
-
-// todos[updateIndex] = '공부';
-// console.log(todos);
-
-// Map
-// var newtodos = todos.map(function(todo){
-//     return todo + ' 해라.';
-// })
-// console.log(newtodos);
-
-// var newtodos = todos.map(function(todo){
-//     if(todo === updateTodo){
-//         return '공부';
-//     }
-//     return todo;
-
-// });
-// console.log(newtodos);
-
-//Delete
-
-// var todos = ['운동', '공부', '목욕'];
-// var deleteTodo = '공부';
-
-// var deleteIndex = todos.findIndex(function(todo) {
-//   return todo === deleteTodo;
-// });
-// todos.splice(deleteIndex, 1);
-// console.log(todos);
-
-
-// var isMan = true;
-
-// if(isMan){
-//     console.log('1');
-// }else if(!isMan&isHero){
-//     console.log('2');
+// var log = function(str){
+//     console.log(str);
 // }
+// log('hello');
 
 
-
-// 함수
-
-// function sum(x){
-//     var y = 1;
-//     return x+y; //return문이 없을 떄는 undefined로 반환
+// function log(str){
+//     console.log(str);
 // }
-// var sum = function(x){
-//     var y = 1;
-//     return x+y;
+// log('hello');
+
+// var image = {
+//     width: 100,
+//     height: 100,
+//     name:'1.png',
 // };
 
+// // var imageWidth = 100;
+// // var imageHeight = 100;
+// // var imageName = '1.png';
 
-// alert('안녕하세용^)^');
+// var image1 = [2,3,4];
+// image1[0] = 'a';
 
+// var data = null;
+// var data1 = '';
+// var data2;
+// console.log(data, data1, data2);
 
-// var who = prompt('당신은 누구세요?');
-// console.log(who);
+// console.log(image, image1);
+// console.log(1+2);
+// console.log('a'+'b');
+// var count = 1;
+// var num = '1';
+//console.log(count+num);
+// console.log('' === 0);
 
-
-
-// var isDelete = confirm('정말 삭제하시겠습니까');
-// console.log(isDelete);
-
-// function sum (a, b){
-//     return a+b;
+// var isHero = true;
+// var isHulk = false;
+// if(isHero&&isHulk) {
+//     console.log('hero');
 // }
-// console.log(sum(1,2));
 
-// var car = {
-//     year: '2014',
-//     starting: function() {
-//       console.log('starting..');
-//     },
-//   };
-
-//   car.starting();
-  
-// (function() { //즉시실행함수 ,캡슐화하는 효과
-//     var a = 'a';
-//     console.log(a);
-//   })();
-
-function sum(x, y) {
-    if (!y) y = 1;
-    console.log(x + y);
-  }
-    console.log(sum(3));
-    console.log(sum(3,3));
+// console.log(typeof '1');
+// console.log(typeof []);
 
 
