@@ -1,5 +1,6 @@
 console.log('app.js');
 
+
 // var log = function(str){
 //     console.log(str);
 // }
