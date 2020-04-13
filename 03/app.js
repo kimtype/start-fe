@@ -1,7 +1,6 @@
 console.log('app.js');
 
 
-
 //create
 var todos =  ['운동'];
 var todo = '게임';
