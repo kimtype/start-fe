@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
