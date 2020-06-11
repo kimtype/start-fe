@@ -1,9 +1,11 @@
+import { saveData } from './data-manager';
+
 const $result = document.querySelector('#result');
 
-export function render(data) {
-  console.log('todos', data);
+function render(data) {
+  saveData(data);
   const html = data.map((todo, index) => {
-    return `    <li data-index = "${index}">
+    return `<li data-index = "${index}">
             <button class="delete">×</button>
             <input type="checkbox" class="toggle-checked" ${
               todo.isDone ? 'checked' : ''
@@ -14,3 +16,4 @@ export function render(data) {
 
   $result.innerHTML = `<ul>${html.join('')}</ul>`;
 }
+export { render };
